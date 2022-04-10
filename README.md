@@ -5,7 +5,7 @@
 
 # 调试日志
  
- - 添加了binning模式以降低相机分辨率，减小vinmonos图像处理压力以提高实时性。
+ - 添加了binning模式，在降低相机分辨率的同时保持图像范围不变，减小vinmonos图像处理压力以提高实时性。
 
 # galaxy_camera
 ROS wrapper for the galaxy camera made by Daheng Imaging.
