@@ -123,10 +123,10 @@ namespace galaxy_camera {
         if(binning_en)
         //Horizontal Binning Mode
         {
-            GXSetEnum(dev_handle_,  GX_ENUM_BINNING_HORIZONTAL_MODE,GX_BINNING_HORIZONTAL_MODE_SUM);
+            GXSetEnum(dev_handle_,  GX_ENUM_BINNING_HORIZONTAL_MODE,GX_BINNING_HORIZONTAL_MODE_AVERAGE);
             GXSetInt(dev_handle_,GX_INT_BINNING_HORIZONTAL,2);
         //Vertical Binning Mode
-            GXSetEnum(dev_handle_,  GX_ENUM_BINNING_VERTICAL_MODE,GX_BINNING_VERTICAL_MODE_SUM);
+            GXSetEnum(dev_handle_,  GX_ENUM_BINNING_VERTICAL_MODE,GX_BINNING_VERTICAL_MODE_AVERAGE);
             GXSetInt(dev_handle_,GX_INT_BINNING_VERTICAL,2);
             }
         
