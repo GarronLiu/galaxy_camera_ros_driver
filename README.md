@@ -3,9 +3,9 @@
 - 在大恒水星二代USB3.0相机301-125U3C上通过测试，现可在.launch文件中修改相机分辨率、自动增益、帧率、白平衡、曝光时间以及BINNING模式等参数.
 - 欲添加其余参数，可以参考galaxy_camera.cpp中void GalaxyCamera::writeConfig()进行修改，同时可参考GxIAPI.h，因为所有接口已在头文件内定义。
 
-# 修改
+# 调试日志
  
- 添加了binning模式以降低相机分辨率，提高vinmonos的实时性。
+ - 添加了binning模式以降低相机分辨率，减小vinmonos图像处理压力以提高实时性。
 
 # galaxy_camera
 ROS wrapper for the galaxy camera made by Daheng Imaging.
