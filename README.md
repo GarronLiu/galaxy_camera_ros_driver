@@ -1,3 +1,7 @@
+# 修改
+ 
+ 添加了binning模式以降低相机分辨率，提高vinmonos的实时性。
+
 # galaxy_camera
 ROS wrapper for the galaxy camera made by Daheng Imaging.
 
