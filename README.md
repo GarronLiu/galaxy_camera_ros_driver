@@ -1,3 +1,8 @@
+# 描述
+
+- 在大恒水星二代USB3.0相机301-125U3C上测试，可在.launch文件中修改相机分辨率、自动增益、帧率、白平衡、曝光时间以及BINNING模式等参数.
+- 欲添加其余参数，可以参考galaxy_camera.cpp中void::write_config()进行修改，所有接口已在GxIAPI.h内定义好。
+
 # 修改
  
  添加了binning模式以降低相机分辨率，提高vinmonos的实时性。
@@ -12,6 +17,7 @@ Dependencies:
 - gxiapi
 
 ONLY TESTED ON MER2-302!!!
+Updated on 2022.04.10: Already Tested on MER2-301. 
 
 # Getting started 
 ## Install dependencies
